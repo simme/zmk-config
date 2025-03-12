@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
+ /*
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
@@ -66,3 +67,4 @@
 &right_encoder1 {
     status = "okay";
 };
+*/

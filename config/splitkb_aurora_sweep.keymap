@@ -8,9 +8,9 @@
 #define HRMR(k1,k2,k3) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3
 
 #define MAC 0
-#define RIG 2
-#define LEF 3
-#define TRI 4
+#define RIG 1
+#define LEF 2
+#define TRI 3
 
 / {
     behaviors {
@@ -104,8 +104,8 @@
             >;
         };
 
-        &right_encoder1 {
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-        };
+        //&right_encoder1 {
+            //sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        //};
     };
 };
