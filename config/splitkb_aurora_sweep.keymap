@@ -109,6 +109,6 @@
     };
 };
 
-&right_encoder1 {
-    status = "okay";
-};
+//&right_encoder1 {
+    //status = "okay";
+//};
