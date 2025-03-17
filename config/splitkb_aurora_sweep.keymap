@@ -13,6 +13,12 @@
 #define LEF 2
 #define TRI 3
 
+&right_encoder1 {
+    status = "okay";
+    a-gpios = <&pro_micro 16 GPIO_PULL_UP>;
+    b-gpios = <&pro_micro 10 GPIO_PULL_UP>;
+};
+
 / {
     behaviors {
         ht: hold_tap {
