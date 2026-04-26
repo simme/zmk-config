@@ -1,0 +1,10 @@
+#include <dt-bindings/gpio/gpio.h>
+
+/*
+ * Define the SPI bus label expected by nice_view_gem and wire chip select to
+ * Pro Micro D1, matching the nice!view adapter guidance for OLED-compatible
+ * shields.
+ */
+nice_view_spi: &pro_micro_spi {
+    cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+};
